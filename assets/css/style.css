@@ -26,4 +26,13 @@ header {
     text-decoration: none;
     
  }
+ section h2{
+    font-size: 40px;
+ }
+ 
+ aside h2 {
+    flex-
+    background-color: aqua;
+    border-right: 6px solid grey;
+ }
  
