@@ -31,8 +31,7 @@ header {
  }
  
  aside h2 {
-    flex-
+    display:flex
     background-color: aqua;
     border-right: 6px solid grey;
  }
- 
