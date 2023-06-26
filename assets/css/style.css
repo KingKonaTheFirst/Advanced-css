@@ -1,3 +1,9 @@
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -8,22 +14,29 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
-    background-color: #304050;
-    color: rgb(100, 160, 187);
+    padding: 10px 10px 10px 0px;
+    margin:0%;
+    
+    background-color: rgb(48,53,61);
+    color: rgb(30, 44, 51);
   }
 
  nav ul{
     display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   min-width: 600px;
   list-style-type: none;
   font-size: 30px;
  }
  nav a{
-    color: rgb(100, 160, 187);
-    font-weight: bold;
+    color: rgb(146,204,206);
+    font-weight: lighter;
+    font-size: 25px;
     text-decoration: none;
+      border-bottom-width: 4px;
+      border-bottom-style: solid;
+      padding-bottom: 1px;
+      
     
  }
  section h2{
@@ -31,7 +44,16 @@ header {
  }
  
  aside h2 {
-    display:flex
+    display:flex;
     background-color: aqua;
     border-right: 6px solid grey;
+ }
+
+h1 {
+   display:flex;
+   background-color: rgb(146,204,206);
+   width: 350px;
+   height: 50px;
+   justify-content: right;
+   align-items: center;
  }
