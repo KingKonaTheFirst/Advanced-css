@@ -43,10 +43,19 @@ header {
     font-size: 40px;
  }
  
+ aside{
+   display: flex;
+
+ }
  aside h2 {
-    display:flex;
-    background-color: aqua;
+    display:flex-box;
+    padding:2% 2%;
+    align-items: left;
+    justify-content: left;
+    
+    
     border-right: 6px solid grey;
+   
  }
 
 h1 {
