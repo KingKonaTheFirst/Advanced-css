@@ -1,6 +1,5 @@
 element {
-  --headerText:rgb(30, 44, 51);
-
+  --headerText: rgb(30, 44, 51);
 }
 * {
   margin: 0;
@@ -69,9 +68,8 @@ section h2 {
   bottom: 20px;
   padding: 4px;
   border-radius: 7px;
-  
 }
-a{
+a {
   text-decoration: none;
   color: var(--headerText);
 }
@@ -80,20 +78,24 @@ a{
   width: 20%;
 
   background-color: brown;
-  border-right: 6px solid grey;
-  text-align: end;
-  line-height: 300px;
+  /* border-right: 6px solid grey; */
+  text-align: right;
+  margin: 1%, 2%;
+
+  /* line-height: 300px; */
 }
-/* .lorem {
- 
-} */
+.lorem {
+  margin: 1%;
+  /* border-left: 6px solid grey;
+  padding-left: 5px; */
+}
 .RubberDucky {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  height: 300px;
-
+  /* padding: 2px, 2px;
+  padding-right: 15px; */
 }
 
 h1 {
@@ -106,6 +108,14 @@ h1 {
   justify-content: flex-end;
   align-items: center;
 }
+h3 {
+  border-right: 6px solid grey;
+  margin:1% 2%;
+  display: block;
+  justify-content: left;
+  padding-right:15px;
+  line-height:1.1;
 
+}
 @media screen and (max-width: 768px) {
 }
