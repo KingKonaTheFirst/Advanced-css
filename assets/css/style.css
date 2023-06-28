@@ -30,6 +30,7 @@ nav ul {
   min-width: 600px;
   list-style-type: none;
   font-size: 30px;
+  flex-wrap: wrap;
 }
 nav a {
   color: rgb(146, 204, 206);
@@ -85,7 +86,10 @@ a {
   /* line-height: 300px; */
 }
 .lorem {
-  margin: 1%;
+  margin: 5px;
+  padding-left: 15px;
+  border-left: 2px solid grey;
+
   /* border-left: 6px solid grey;
   padding-left: 5px; */
 }
@@ -109,13 +113,12 @@ h1 {
   align-items: center;
 }
 h3 {
-  border-right: 6px solid grey;
+  /* border-right: 6px solid grey;
   margin:1% 2%;
   display: block;
   justify-content: left;
   padding-right:15px;
-  line-height:1.1;
-
+  line-height:1.1; */
 }
 @media screen and (max-width: 768px) {
 }
